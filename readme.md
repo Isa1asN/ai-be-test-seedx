@@ -80,5 +80,3 @@ The endpoint returns an event stream with the following event types:
 - `tool_use`: When the AI decides to use a tool
 - `tool_output`: The result of a tool execution
 - `end`: Signals the end of the response stream
-
-## Project Structure
