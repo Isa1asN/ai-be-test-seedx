@@ -28,7 +28,7 @@ Format: Always use complete sentences."""
     })
     
     return client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=os.getenv("MODEL_NAME"),
         messages=messages,
         tools=tools,
         stream=True,
